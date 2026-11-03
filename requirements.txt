@@ -1,0 +1,9 @@
+tkcalendar
+python-docx
+pillow
+matplotlib
+python-dotenv
+dnspython
+nuitka
+certifi
+firebase-admin

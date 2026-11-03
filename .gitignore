@@ -1,0 +1,19 @@
+﻿# ClaudeSkillCommon deploy (auto-added)
+.agents/
+.claude/
+.gitnexus/
+build_output/
+.env
+.idea/
+# Secrets & local data
+serviceAccountKey.json
+.env
+settings.json
+backups/
+reports/
+assets/receipts/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
