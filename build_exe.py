@@ -1,4 +1,3 @@
-import os
 import subprocess
 import sys
 
@@ -9,12 +8,10 @@ def build():
         "--standalone",
         "--windows-disable-console",
         "--output-dir=build_output",
-        "main.py"
+        "--include-data-dir=locales=locales",
+        "main.py",
     ]
-    
-    if os.path.exists(".env.example"):
-        command.append("--include-data-files=.env.example=.env.example")
-        
+
     try:
         subprocess.run(command, check=True)
         print("\nBuild thành công! Thư mục kết quả nằm trong 'build_output/main.dist'")
