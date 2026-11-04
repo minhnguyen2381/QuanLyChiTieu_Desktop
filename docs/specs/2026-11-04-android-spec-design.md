@@ -23,7 +23,7 @@ tìm kiếm, nhiều người dùng); wireframe đề xuất cho mobile (chỉ c
 | Q1 | Android **dùng chung Firestore** với desktop | Schema hiện tại (gồm field legacy, `total_amount`, quy ước giờ) là hợp đồng cứng |
 | Q2 | Mức bám: **as-is + gợi ý Compose** | Mô tả đúng hành vi hiện tại; gợi ý Android nằm trong khối riêng, không trộn |
 | Q3 | Cấu trúc: **tách file theo chủ đề** (phương án A) | README + 5 file `.md` + một file `.drawio` nhiều trang + PNG |
-| Q4 | Công cụ diagram: draw.io (desktop đã cài tại `C:\Program Files\draw.io\draw.io.exe`) | Xuất PNG từng trang bằng CLI; không có draw.io MCP trong phiên |
+| Q4 | Công cụ diagram: draw.io (desktop đã cài tại `C:\Users\Lecoo\AppData\Local\Programs\draw.io\draw.io.exe`) | Xuất PNG từng trang bằng CLI; không có draw.io MCP trong phiên |
 
 ## 3. Cấu trúc sản phẩm
 
