@@ -17,3 +17,5 @@ assets/receipts/
 __pycache__/
 *.pyc
 .venv/
+
+.tiered-agent-kit/
